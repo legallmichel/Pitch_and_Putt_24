@@ -52,9 +52,9 @@
 .countDiv0{ /* display:none !important;*/ }
 .countHours{}
 .countDiv1{}
-.countMinutes{}
+.countMinutes{display:none}
 .countDiv2{}
-.countSeconds{}
+.countSeconds{display:none}
 
 
 .countDiv{

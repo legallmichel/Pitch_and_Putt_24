@@ -53,7 +53,7 @@
 .countHours{}
 .countDiv1{}
 .countMinutes{}
-.countDiv2{}
+.countDiv2{display:none}
 .countSeconds{display:none}
 
 

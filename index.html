@@ -10,6 +10,9 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" />
+        <link rel="stylesheet" href="assets/css/styles.css" />
+        <link rel="stylesheet" href="assets/countdown/jquery.countdown.css" />
 	</head>
 	<body class="homepage is-preload">
 		<div id="page-wrapper">
@@ -23,15 +26,14 @@
 								<div class="inner">
 
 									<!-- Logo -->
-										<h1><a href="index.html" id="logo">Pitch and Putt <br />Dordogne</a></h1>
+										<h1><a href="index.html" id="logo">Pitch and Putt Dordogne</a></h1>
 
 									<!-- Nav -->
 										<nav id="nav">
 											<ul>
 												<li class="current_page_item"><a href="index.html">Accueil</a></li>
-												<li><a href="#">Calendrier des compétitions</a></li>
-												<li><a href="#">Les parcours</a></li>
 												<li>
+													<a href="#">Actualités</a>
 													<a href="#">5ème Challenge</a>
 														<ul>
 															<li><a href="#">Règlement</a></li>
@@ -47,19 +49,20 @@
 															<li><a href="#">Meilleures cartes</a></li>
 														</ul>
 												</li>
+												<li><a href="calendrier.html">Calendrier des <br /> compétitions</a></li>
+												<li><a href="#">Les parcours</a></li>
 											</ul>
 										</nav>
-
 								</div>
 							</header>
 
 						<!-- Banner -->
 							<div id="banner">
-								<h2><strong>ZeroFour:</strong> A free responsive site template
+								<h3><strong>Pitch and Putt Dordogne :</strong> A free responsive site template
 								<br />
-								built on HTML5 and CSS3 by <a href="http://html5up.net">HTML5 UP</a></h2>
-								<p>Does this statement make you want to click the big shiny button?</p>
-								<a href="#" class="button large icon fa-check-circle">Yes it does</a>
+								built on HTML5 and CSS3 by <a href="http://html5up.net">HTML5 UP</a></h3>
+								
+								
 							</div>
 
 					</div>
@@ -75,7 +78,12 @@
 									<div class="row">
 										<div class="col-12">
 											<header class="first major">
-												<h2>This is an important heading</h2>
+												<h2>Prochaine compétition dans : </h2>
+
+<div id="countdown"></div>
+
+		<p id="note"></p>
+
 												<p>And this is where we talk about why we’re <strong>pretty awesome</strong> ...</p>
 											</header>
 										</div>
@@ -359,6 +367,8 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+			<script src="assets/countdown/jquery.countdown.js"></script>
+			<script src="assets/js/script.js"></script>
 	</body>
 </html>

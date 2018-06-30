@@ -77,7 +77,7 @@
 		elem.addClass('countdownHolder');
 
 		// Creating the markup inside the container
-		$.each(['Days','Hours','Minutes','Seconds'],function(i){
+		$.each(['Days','Hours'],function(i){
 			$('<span class="count'+this+'">').html(
 				'<span class="position">\
 					<span class="digit static">0</span>\

@@ -13,7 +13,7 @@ $(function(){
 		
 	$('#countdown').countdown({
 		timestamp	: ts,
-		callback	: function(days, hours, minutes, seconds){
+		callback	: function(days){ //, hours, minutes, seconds){
 
 		}
 	});
